@@ -1,15 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:ital,wght@0,100;1,900&display=swap');
+
+
 body {
- margin: 0px;
-background-color: rgb(144, 182, 221);
+margin: 0px;
+background-color: rgb(168, 196, 225);
 }
 
 h1 {
     width: 774px;
     height: 194px;
     color: rgb(295, 295, 295);
-    font-family: 'Courier New', Courier, monospace;
     position: absolute;
-    background-color:rgb(99, 137, 175);
     border: none;
     margin: none;
     margin-top: 0px;
@@ -17,7 +18,7 @@ h1 {
 
 }
 
-#heading {
+#title {
     width: 774px;
     height: 194px;
     margin-right: auto; 
@@ -34,4 +35,46 @@ h1 {
     width: 1024px;
     height: 2000px;
     background-color: rgb(255, 255, 255);
+}
+
+#header {
+    background-color:rgb(99, 137, 175);
+    display: flex;
+    justify-content: center;
+}
+
+#nav {
+    background-color: rgb(3, 114, 225);
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: row */
+}
+
+h2 {
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(62, 62, 62);
+    background-color: rgb(144, 182, 221);
+    width: 225px;
+    height: 100px;
+    margin-top: 0px;
+    margin-top: 0px;
+    /* display: flex;
+    flex-direction: row; */
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    /* display: flex;
+    flex-direction: row */
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 10px;
+
+
 }
