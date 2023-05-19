@@ -26,8 +26,9 @@ h1 {
     margin-left: auto; 
     margin-right: auto; 
     width: 1024px;
-    height: 2000px;
+    height: 4000px;
     background-color: rgb(255, 255, 255);
+    /* border: solid yellow 3px; */
 }
 
 #title {
@@ -43,22 +44,41 @@ h1 {
 }
 
 #nav {
-    background-color: rgb(3, 114, 225);
+    background-color: rgb(255, 255, 255);
     display: flex;
-    justify-content: space-around;
+    text-align: center;
+    /* justify-content: space-around; */
+    padding-left: 0px;
+    padding-right: 0px;
     /* flex-direction: row */
+}
+
+#navabout {
+    margin-left: -4px;
+}
+
+#navart {
+margin-left: 0px;
+}
+
+#navcontact {
+    margin-left: 0px;
+}
+
+#navshop {
+    margin-left: 2px;
+    margin-right: 20px;
 }
 
 a {
     font-family: 'Abril Fatface', cursive;
     color: rgb(62, 62, 62);
     background-color: rgb(144, 182, 221);
-    width: 225px;
+    width: 245px;
     height: 100px;
     margin-top: 0px;
-    margin-top: 0px;
-    /* display: flex;
-    flex-direction: row; */
+    text-align: center;
+    display: flex;
 }
 
 ul {
@@ -83,11 +103,11 @@ ul {
 h3 {
     font-size: 30px;
     margin-right: 10px;
-    margin-left: 3px;
+    margin-left: 4px;
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 0px;
-
+    /* border: solid red 1px; */
 }
 
 h1 {
@@ -109,8 +129,8 @@ h1 {
 }
 
 #ghost {
-    letter-spacing: 20px;
-    margin-left: 0px;
+    letter-spacing: 25px;
+    margin-left: 20px;
     margin-top: -10px;
 }
 
@@ -120,17 +140,291 @@ h1 {
     margin-left: 90px
 }
 
-#box {
-   margin: 15px;
-    }
-
-#box2 {
-    margin: 15px;
+#abovethefold {
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* justify-content: flex-start; */
+    border: blueviolet dotted 3px;
+    padding: 0px;
 }
 
-#pictures {
-    margin: 15px;
+#box1 {
+   margin-left: 0px;
+   margin-bottom: 10px;
+   margin-top: 10px;
+   display: flex;
+   border: rgb(226, 156, 43) solid 3px;
+    }
+
+#liloandstitch {
+    margin-left: 5px;
+    margin-top: 0px;
+    display: flex;
+    /* border: rgb(43, 144, 226) solid 3px; */
+}
+
+#about {
+    font-family: 'Abril Fatface', cursive;
+    /* border: blueviolet solid 1px; */
+    background-color: rgb(144, 182, 221);
+    color: rgb(62, 62, 62);
+    font-size: 37px;
+    width: 240px;
+    height: 40px;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    /* position: relative; */
+}
+
+#aboutmepic {
+    /* margin-left: 5px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    /* margin-left: 5px; */
+    /* border: solid 3px salmon; */
+}
+
+#squarebox {
+    width: 487px;
+    height: 407px;
+    border: dotted 3px aquamarine;
+    display: flex;
+    flex-direction: column  ;
+    flex-wrap: wrap;
+}
+
+#leftbox {
+    width: 490px;
+    height: 725px;
+    border:  rgb(226, 195, 43) 1px;
+    flex-wrap: wrap;
+}
+
+#rightbox {
+    width: 490px;
+    height: 725px;
+    margin-top: 10px;
+    border: rgb(43, 92, 226) dotted 3px;
+}
+
+#leftsquarebox {
+    border: solid rgb(36, 176, 55) 1px;
+    margin: 0px;
+    margin-right: 5px;
+    width: 240px;
+    height: 407px;
+}
+
+#rightsquarebox {
+    /* border: solid rgb(176, 36, 85) 1px; */
+    margin: 0px;
+    margin-left: 3px;
+    width: 240px;
+    height: 407px;
+}
+
+#begin {
+    width: 240px; 
+    height: 93px;
+    border: solid blue 1px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 15px;
+    line-height: 13pt;
+}
+
+#continue {
+    width: 238px; 
+    height: 407px;
+    border: solid blue 1px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 15px;
+    line-height: 13pt;
+}
+
+#artanddesigns {
+    /* border: dotted blueviolet 3px; */
+    height: 1497px;
+    width: auto;
+}
+
+#mainarea {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    height: 878px;
+    width: auto;
+    border: dotted darkgoldenrod 3px;
+}
+
+#adtitle {
+    font-family: 'Abril Fatface', cursive;
+    background-color: rgb(144, 182, 221);
+    color: rgb(62, 62, 62);
+    font-size: 70px;
+    width: auto;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    text-align: center;
+    /* border: solid salmon 3px; */
+}
+
+#leftcolumn {
+    border: solid red 2px;
+    margin-left: 7px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    width: 330px;
+    height: 876px;
+}
+
+#centercolumn {
+    border: solid orange 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    width: 308px;
+    height: 876px;
+}
+
+#rightcolumn {
+    border: solid yellow 2px;
+    margin-left: 5px;
+    margin-right: 7px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    width: 330px;
+    height: 876px;
+}
+
+#ad1 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#description1 {
+    width: 330px;
+    height: 100px;
+    border: solid blue 2px;
+    margin-top: 0px;
+}
+
+#ad2 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#description2 {
+    width: 308px;
+    height: 100px;
+    border: solid blue 2px;
+    margin-top: 0px;
+}
+
+#ad3 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#description3 {
+    width: 325px;
+    height: 100px;
+    border: solid blue 2px;
+    margin-top: 0px;
+}
+
+#ad4 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#description4 {
+    width: 330px;
+    height: 100px;
+    border: solid blue 2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#ad5 {
+    margin-top: 0px;
+    margin-bottom: 10px; 
+}
+
+#description5 {
+    width: 308px;
+    height: 100px;
+    border: solid blue 2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#ad6 {
+    margin-top: 0px;
+    margin-bottom: 10px; 
+}
+
+#description6 {
+    width: 330px;
+    height: 100px;
+    border: solid blue 2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#bottomsection {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 700px;
+    border: dotted rgb(106, 11, 184) 3px;
+}
+
+#ad7 {
+    margin-top: 15px;
+    margin-bottom: 0px; 
+    margin-left: 15px;
+    margin-right: 7.5px;
+}
+
+#description7 {
+    width: 587px;
+    height: 100px;
+    border: solid blue 1px;
+    margin-left: 15px;
+    margin-right: 7.5px;
+}
+
+#ad8 {
+    margin-top: 15px;
+    margin-bottom: 0px; 
+    margin-left: 7.5px;
+    margin-right: 15px;
+}
+
+#description8 {
+    width: 387px;
+    height: 100px;
+    border: solid blue 1px;
+    margin-left: 7.5px;
+    margin-right: 15px;
 }
