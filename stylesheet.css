@@ -34,102 +34,143 @@ h1 {
     width: 774px;
     height: 194px;
     margin-right: auto; 
+    border: 3px solid salmon;
 }
 
 #header {
     background-color:rgb(99, 137, 175);
     display: flex;
     justify-content: space-around;
+    border: purple 3px dotted;
 }
 
-#nav {
+/* 
+#navcontainer {
+    border: 4px solid yellow;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    text-decoration: none;
+    justify-content: space-between;
+} */
+
+/* #nav {
     background-color: rgb(255, 255, 255);
     display: flex;
-    /* text-align: center; */
-    /* justify-content: space-around; */
+    text-align: center;
+    justify-content: space-around;
     padding-left: 0px;
     padding-right: 0px;
-    /* flex-direction: row */
-}
+    flex-direction: row 
+} */
 
 #navabout {
-    margin-left: -4px;
+    margin-left: 0px;
     font-family: 'Abril Fatface', cursive;
-    color: rgb(62, 62, 62);
-    background-color: rgb(144, 182, 221);
-    width: 245px;
+    color: #3E3E3E;
+    background-color: #90b6dd;
+    width: 325px;
     height: 100px;
     margin-top: 0px;
     text-align: center;
     display: flex;
+    text-decoration:none;
+    transition-delay: .25s;
+    transition-duration: 1s;
+}
+
+#navabout:hover {
+    width: 325px;
+    height: 100px;
+    color: #2E2E2E;
+    background-color: #B9D0E9;
+    transition-property: background-color color;
+    transition-duration: 1s;
+    transition-delay: .25s;
 }
 
 #navart {
-margin-left: 0px;
-font-family: 'Abril Fatface', cursive;
-    color: rgb(62, 62, 62);
-    background-color: rgb(144, 182, 221);
-    width: 245px;
-    height: 100px;
-    margin-top: 0px;
-    text-align: center;
-    display: flex;
-}
-
-#navcontact {
     margin-left: 0px;
     font-family: 'Abril Fatface', cursive;
-    color: rgb(62, 62, 62);
-    background-color: rgb(144, 182, 221);
-    width: 245px;
+    color: #3E3E3E;
+    background-color: #90b6dd;
+    width: 325px;
     height: 100px;
     margin-top: 0px;
     text-align: center;
     display: flex;
+    text-decoration:none;
+    transition-delay: .25s;
+    transition-duration: 1s;
 }
 
-#navshop {
-    margin-left: 2px;
-    margin-right: 20px;
+#navart:hover {
+    width: 325px;
+    height: 100px;
+    color: #2E2E2E;
+    background-color: #B9D0E9;
+    transition-property: background-color color;
+    transition-duration: 1s;
+    transition-delay: .25s;
+}
+
+#navsc {
+    margin-left: 0px;
+    margin-right: 0px;
     font-family: 'Abril Fatface', cursive;
-    color: rgb(62, 62, 62);
-    background-color: rgb(144, 182, 221);
-    width: 245px;
+    color: #3E3E3E;
+    background-color: #90b6dd;
+    width: 325px;
     height: 100px;
     margin-top: 0px;
     text-align:right;
     display: flex;
+    text-decoration:none;
+    transition-delay: .25s;
+    transition-duration: 1s;
 }
 
-/* a {
+#navsc:hover {
+    width: 325px;
+    height: 100px;
+    color: #2E2E2E;
+    background-color: #B9D0E9;
+    transition-property: background-color color;
+    transition-duration: 1s;
+    transition-delay: .25s;
+}
+
+li {
     font-family: 'Abril Fatface', cursive;
     color: rgb(62, 62, 62);
     background-color: rgb(144, 182, 221);
+    /* border: red solid 3px; */
     width: 245px;
     height: 100px;
     margin-top: 0px;
-    text-align: center;
+    /* text-align: center; */
     display: flex;
-} */
-
-ul {
-    /* display: flex;
-    justify-content: space-around; */
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    padding: 0;
-    margin: 0;
 }
 
-.nav {
+ul {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
     text-align: center;
-    /* padding: 10px; */
-    /* justify-content: space-around; */
-}   
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    border: purple 3px dotted;
+}
+
+/* .nav {
+    display: flex;
+    flex-direction: row;
+    text-align: center; 
+    padding: 10px;
+    justify-content: space-around;
+}    */
 
 h3 {
     font-size: 30px;
@@ -138,7 +179,8 @@ h3 {
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 0px;
-    /* border: solid red 1px; */
+    border: solid red 1px;
+    text-align: center; 
 }
 
 h1 {
@@ -288,20 +330,6 @@ h1 {
     line-height: 13pt;
 }
 
-#artanddesigns {
-    /* border: dotted blueviolet 3px; */
-    height: 1497px;
-    width: auto;
-}
-
-#mainarea {
-    display: flex;
-    flex-direction: row;
-    height: 878px;
-    width: auto;
-    border: dotted darkgoldenrod 3px;
-}
-
 #adtitle {
     font-family: 'Abril Fatface', cursive;
     background-color: rgb(144, 182, 221);
@@ -314,7 +342,7 @@ h1 {
     padding-top: 0px;
     padding-bottom: 5px;
     text-align: center;
-    /* border: solid salmon 3px; */
+    border: solid salmon 3px;
 }
 
 #leftcolumn {
@@ -345,6 +373,27 @@ h1 {
     margin-top: 0px;
     width: 330px;
     height: 876px;
+}
+
+#artanddesigns {
+    /* border: dotted blueviolet 3px; */
+    height: 1497px;
+    width: auto;
+}
+
+#mainarea {
+    border: solid 3px rgb(179, 240, 56);
+    height: auto;
+    /* margin-top: 0px;
+    margin-bottom: 0px; */
+}
+
+#area51 {
+    display: flex;
+    flex-direction: row;
+    height: 878px;
+    width: auto;
+    border: dotted darkgoldenrod 3px;
 }
 
 #ad1 {
@@ -430,7 +479,7 @@ h1 {
     width: auto;
     height: 700px;
     border: dotted rgb(106, 11, 184) 3px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 #ad7 {
@@ -443,7 +492,7 @@ h1 {
 #description7 {
     width: 587px;
     height: 100px;
-    border: solid blue 1px;
+    border: solid rgb(29, 147, 88) 1px;
     margin-left: 15px;
     margin-right: 7.5px;
     margin-top: 5px;
@@ -460,27 +509,28 @@ h1 {
 #description8 {
     width: 387px;
     height: 100px;
-    border: solid blue 1px;
+    border: solid rgb(28, 186, 70) 1px;
     margin-left: 7.5px;
     margin-right: 15px;
     margin-top: 5px;
 }
 
-#shop {
-    /* border: red solid 1px; */
-    position: relative;
-    margin-top: 205px;
+#shopandcontact {
+    border: rgb(255, 152, 178) solid 1px;
+    /* position: relative; */
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
 }
 
-#shopheader {
-    /* border: red dotted 2px; */
+/* #scheader {
+    border: red dotted 2px;
     width: auto;
     height: 105px;
-}
+    margin-top: 0px;
+} */
 
-#shoptitle {
+#sctitle {
     font-family: 'Abril Fatface', cursive;
     background-color: rgb(144, 182, 221);
     color: rgb(62, 62, 62);
@@ -494,14 +544,14 @@ h1 {
     text-align: center;
 }
 
-#shopmainarea {
+#scmainarea {
     margin-top: 0px;
     display: flex;
     flex-direction: row;
-    border: solid orange;
+    border: solid rgb(136, 0, 255);
 }
 
-#shoptext {
+#sctext {
     height: 360px;
     width: 495px;
     margin-left: 10px;
@@ -509,6 +559,16 @@ h1 {
     margin-top: 10px;
     margin-bottom: 10px;
     border: solid salmon 1px;
+    text-align: center;
+    padding: 0px;
+}
+
+#text1 {
+    font-size: 21px;
+}
+
+#text2 {
+    font-size: 12px;
 }
 
 #shopimage {
@@ -518,7 +578,7 @@ h1 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
+/* 
 #contact {
     border: red solid 1px;
     position: relative;
@@ -528,7 +588,7 @@ h1 {
 }
 
 #contactheader {
-    /* border: red dotted 2px; */
+    border: red dotted 2px;
     width: auto;
     height: 105px;
 }
@@ -571,71 +631,33 @@ h1 {
     margin-right: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
-}
+} */
 
 footer {
-    border: green solid 2px;
-    display: flex;
-    flex-direction: row;
+    border: rgb(237, 58, 145) solid 2px;
+    /* display: flex;
+    flex-direction: row; */
     width: auto;
     height: 245px;
-    background-color: rgb(124, 153, 184);
+    background-color: rgb(99, 137, 175);
+    display: flex;
+    flex-direction: row;
 }
 
-#group {
-    height: auto;
-    width: 700px;
-    /* display: flex;
-    flex-direction: column; */
-    margin: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    border: red dotted 2px;
-    color: white;
-    font-size: 30px;
-    font-family: 'Abril Fatface', cursive;
+#footerlinks {
+    border: solid rgb(92, 219, 78) 2px;
+    /* font-size: 18px;
+    color: rgb(255, 255, 255); */
 }
 
-#footerlist1 {
-    border: orange 2px solid;
-    margin-top: 0px;
-    margin-bottom: 20px;
-    height: auto;
-    width: 400px;
-    /* letter-spacing: 5px;
-    line-height: 25px; */
-}
-
-#footerlist2 {
-    border: orange 2px solid;
-    height: auto;
-    width: 325px;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    /* letter-spacing: 10px; */
+.linkwork {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: aqua;
 }
 
 #footerlogo {
-    margin-left: 50px;
-    margin-right: 55px;
-    border: yellow 2px solid;
-    height: auto;
-    padding: 0px;
+    border: solid rgb(191, 33, 219) 2px;
+    margin-left: 650px;
 }
-
-.footeritems {
-    margin-left: 10px;
-    margin-right: 10px;
-    border: blue solid 3px;
-    width: auto;
-    display: flex;
-    flex-direction: row;
-}
-
-/* #about01 {
-    margin-top: 15px;
-} */
