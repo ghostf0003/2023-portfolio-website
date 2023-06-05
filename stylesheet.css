@@ -25,7 +25,7 @@ h1 {
     margin-left: auto; 
     margin-right: auto; 
     width: 1024px;
-    height: 4000px;
+    height: 3955px;
     background-color: rgb(255, 255, 255);
     /* border: solid yellow 3px; */
 }
@@ -34,14 +34,14 @@ h1 {
     width: 774px;
     height: 194px;
     margin-right: auto; 
-    border: 3px solid salmon;
+    /* border: 3px solid salmon; */
 }
 
 #header {
     background-color:rgb(99, 137, 175);
     display: flex;
     justify-content: space-around;
-    border: purple 3px dotted;
+    /* border: purple 3px dotted; */
 }
 
 /* 
@@ -65,14 +65,14 @@ h1 {
 } */
 
 #navabout {
-    margin-left: 0px;
+    margin-right: 5px;
+    margin-left: 5px;
     font-family: 'Abril Fatface', cursive;
     color: #3E3E3E;
     background-color: #90b6dd;
     width: 325px;
     height: 100px;
-    margin-top: 0px;
-    text-align: center;
+    /* text-align: center; */
     display: flex;
     text-decoration:none;
     transition-delay: .25s;
@@ -80,6 +80,8 @@ h1 {
 }
 
 #navabout:hover {
+    margin-right: 5px;
+    margin-left: 5px;
     width: 325px;
     height: 100px;
     color: #2E2E2E;
@@ -90,14 +92,15 @@ h1 {
 }
 
 #navart {
-    margin-left: 0px;
+    margin-right: 5px;
+    margin-left: 5px;
     font-family: 'Abril Fatface', cursive;
     color: #3E3E3E;
     background-color: #90b6dd;
     width: 325px;
     height: 100px;
     margin-top: 0px;
-    text-align: center;
+    /* text-align: center; */
     display: flex;
     text-decoration:none;
     transition-delay: .25s;
@@ -105,6 +108,8 @@ h1 {
 }
 
 #navart:hover {
+    margin-right: 5px;
+    margin-left: 5px;
     width: 325px;
     height: 100px;
     color: #2E2E2E;
@@ -115,14 +120,13 @@ h1 {
 }
 
 #navsc {
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-right: 5px;
+    margin-left: 5px;
     font-family: 'Abril Fatface', cursive;
     color: #3E3E3E;
     background-color: #90b6dd;
     width: 325px;
     height: 100px;
-    margin-top: 0px;
     text-align:right;
     display: flex;
     text-decoration:none;
@@ -131,6 +135,8 @@ h1 {
 }
 
 #navsc:hover {
+    margin-right: 5px;
+    margin-left: 5px;
     width: 325px;
     height: 100px;
     color: #2E2E2E;
@@ -142,8 +148,8 @@ h1 {
 
 li {
     font-family: 'Abril Fatface', cursive;
-    color: rgb(62, 62, 62);
-    background-color: rgb(144, 182, 221);
+    /* color: rgb(62, 62, 62);
+    background-color: rgb(144, 182, 221); */
     /* border: red solid 3px; */
     width: 245px;
     height: 100px;
@@ -157,11 +163,10 @@ ul {
     flex-direction: row;
     justify-content: space-between;
     list-style-type: none;
-    text-align: center;
     text-decoration: none;
-    padding: 0;
-    margin: 0;
-    border: purple 3px dotted;
+    padding: 0px;
+    margin: 0px;
+    /* border: purple 3px dotted; */
 }
 
 /* .nav {
@@ -173,15 +178,31 @@ ul {
 }    */
 
 h3 {
+    width: 330px;
     font-size: 30px;
-    margin-right: 10px;
-    margin-left: 4px;
+    margin-right: 5px;
+    margin-left: 5px;
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 0px;
-    border: solid red 1px;
+    /* border: solid red 1px; */
     text-align: center; 
+    color: rgb(62, 62, 62);
+    background-color: rgb(144, 182, 221);
+    transition-delay: .25s;
+    transition-duration: 1s;
 }
+
+h3:hover {
+    width: 325px;
+    height: 100px;
+    color: #2E2E2E;
+    background-color: #B9D0E9;
+    transition-property: background-color color;
+    transition-duration: 1s;
+    transition-delay: .25s;
+}
+
 
 h1 {
     display: flex;
@@ -219,7 +240,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-evenly;
     /* justify-content: flex-start; */
-    border: blueviolet dotted 3px;
+    /* border: blueviolet dotted 3px; */
     padding: 0px;
 }
 
@@ -241,10 +262,10 @@ h1 {
 #about {
     font-family: 'Abril Fatface', cursive;
     /* border: blueviolet solid 1px; */
-    background-color: rgb(144, 182, 221);
+    background-color: rgb(146, 184, 221);
     color: rgb(62, 62, 62);
     font-size: 37px;
-    width: 240px;
+    width: 238.5px;
     height: 40px;
     text-align: center;
     padding-top: 0px;
@@ -271,7 +292,7 @@ h1 {
 #squarebox {
     width: 487px;
     height: 407px;
-    border: dotted 3px aquamarine;
+    /* border: dotted 3px aquamarine; */
     display: flex;
     flex-direction: column  ;
     flex-wrap: wrap;
@@ -293,26 +314,26 @@ h1 {
 }
 
 #leftsquarebox {
-    border: solid rgb(36, 176, 55) 1px;
+    /* border: solid rgb(36, 176, 55) 1px; */
     margin: 0px;
-    margin-right: 5px;
+    margin-right: 10px;
     margin-top: 0px;
-    width: 240px;
+    width: 238.5px;
     height: 410px;
 }
 
 #rightsquarebox {
-    border: solid rgb(176, 36, 85) 1px;
+    /* border: solid rgb(176, 36, 85) 1px; */
     margin: 0px;
-    margin-left: 3px;
-    width: 240px;
+    margin-left: 0px;
+    width: 238.5px;
     height: 410px;
 }
 
 #begin {
-    width: 240px; 
-    height: 93px;
-    border: solid blue 1px;
+    width: 238.5px; 
+    height: 105px;
+    /* border: solid blue 1px; */
     margin-bottom: 0px;
     margin-top: 10px;
     margin-left: 0px;
@@ -321,9 +342,9 @@ h1 {
 }
 
 #continue {
-    width: 238px; 
-    height: 407px;
-    border: solid blue 1px;
+    width: 238.5px; 
+    height: 415px;
+    /* border: solid blue 1px; */
     margin-bottom: 0px;
     margin-top: 0px;
     font-size: 15px;
@@ -337,16 +358,16 @@ h1 {
     font-size: 70px;
     width: auto;
     height: 100px;
-    margin-top: 10px;
+    margin-top: 17px;
     margin-bottom: 10px;
     padding-top: 0px;
     padding-bottom: 5px;
     text-align: center;
-    border: solid salmon 3px;
+    /* border: solid salmon 3px; */
 }
 
 #leftcolumn {
-    border: solid red 2px;
+    /* border: solid red 2px; */
     margin-left: 7px;
     margin-right: 5px;
     margin-bottom: 5px;
@@ -356,7 +377,7 @@ h1 {
 }
 
 #centercolumn {
-    border: solid orange 2px;
+    /* border: solid orange 2px; */
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 5px;
@@ -366,7 +387,7 @@ h1 {
 }
 
 #rightcolumn {
-    border: solid yellow 2px;
+    /* border: solid yellow 2px; */
     margin-left: 5px;
     margin-right: 7px;
     margin-bottom: 5px;
@@ -382,7 +403,7 @@ h1 {
 }
 
 #mainarea {
-    border: solid 3px rgb(179, 240, 56);
+    /* border: solid 3px rgb(179, 240, 56); */
     height: auto;
     /* margin-top: 0px;
     margin-bottom: 0px; */
@@ -393,7 +414,7 @@ h1 {
     flex-direction: row;
     height: 878px;
     width: auto;
-    border: dotted darkgoldenrod 3px;
+    /* border: dotted darkgoldenrod 3px; */
 }
 
 #ad1 {
@@ -406,7 +427,7 @@ h1 {
 #description1 {
     width: 330px;
     height: 100px;
-    border: solid blue 2px;
+    /* border: solid blue 2px; */
     margin-top: 0px;
 }
 
@@ -418,7 +439,7 @@ h1 {
 #description2 {
     width: 308px;
     height: 100px;
-    border: solid blue 2px;
+    /* border: solid blue 2px; */
     margin-top: 0px;
 }
 
@@ -430,7 +451,7 @@ h1 {
 #description3 {
     width: 325px;
     height: 100px;
-    border: solid blue 2px;
+    /* border: solid blue 2px; */
     margin-top: 0px;
 }
 
@@ -442,7 +463,7 @@ h1 {
 #description4 {
     width: 330px;
     height: 100px;
-    border: solid blue 2px;
+    /* border: solid blue 2px; */
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -455,7 +476,7 @@ h1 {
 #description5 {
     width: 308px;
     height: 100px;
-    border: solid blue 2px;
+    /* border: solid blue 2px; */
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -468,7 +489,7 @@ h1 {
 #description6 {
     width: 330px;
     height: 100px;
-    border: solid blue 2px;
+    /* border: solid blue 2px; */
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -478,7 +499,7 @@ h1 {
     flex-direction: row;
     width: auto;
     height: 700px;
-    border: dotted rgb(106, 11, 184) 3px;
+    /* border: dotted rgb(106, 11, 184) 3px; */
     margin-bottom: 0px;
 }
 
@@ -492,7 +513,7 @@ h1 {
 #description7 {
     width: 587px;
     height: 100px;
-    border: solid rgb(29, 147, 88) 1px;
+    /* border: solid rgb(29, 147, 88) 1px; */
     margin-left: 15px;
     margin-right: 7.5px;
     margin-top: 5px;
@@ -509,18 +530,19 @@ h1 {
 #description8 {
     width: 387px;
     height: 100px;
-    border: solid rgb(28, 186, 70) 1px;
+    /* border: solid rgb(28, 186, 70) 1px; */
     margin-left: 7.5px;
     margin-right: 15px;
     margin-top: 5px;
 }
 
 #shopandcontact {
-    border: rgb(255, 152, 178) solid 1px;
+    /* border: rgb(255, 152, 178) solid 1px; */
     /* position: relative; */
-    margin-top: 10px;
+    margin-top: 0px;
     display: flex;
     flex-direction: column;
+    height: auto;
 }
 
 /* #scheader {
@@ -538,29 +560,41 @@ h1 {
     width: auto;
     height: 100px;
     margin-top: 0px;
-    margin-bottom: -90px;
+    margin-bottom: 0px;
     padding-top: 0px;
     padding-bottom: 5px;
     text-align: center;
 }
 
 #scmainarea {
-    margin-top: 0px;
+    height: 360px;
+    margin-top: 10px;
+    margin-bottom: 0px;
     display: flex;
     flex-direction: row;
-    border: solid rgb(136, 0, 255);
+    /* border: solid rgb(136, 0, 255); */
 }
 
 #sctext {
-    height: 360px;
+    height: 343px;
     width: 495px;
     margin-left: 10px;
     margin-right: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: solid salmon 1px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* border: solid salmon 1px; */
     text-align: center;
-    padding: 0px;
+    padding-bottom: 14px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 3px;
+    background-color: #B9D0E9;
+    color: #2E2E2E;
+}
+
+#scpicture {
+    margin-left: 5px;
+    margin-right: 10px;
 }
 
 #text1 {
@@ -571,13 +605,14 @@ h1 {
     font-size: 12px;
 }
 
-#shopimage {
+/* #shopimage {
     border: solid pink 1px;
     margin-left: 5px;
     margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-}
+} */
+
 /* 
 #contact {
     border: red solid 1px;
@@ -634,30 +669,61 @@ h1 {
 } */
 
 footer {
-    border: rgb(237, 58, 145) solid 2px;
+    /* border: rgb(237, 58, 145) solid 2px; */
     /* display: flex;
     flex-direction: row; */
     width: auto;
-    height: 245px;
+    height: 270px;
     background-color: rgb(99, 137, 175);
     display: flex;
     flex-direction: row;
+    text-decoration: none;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 #footerlinks {
-    border: solid rgb(92, 219, 78) 2px;
-    /* font-size: 18px;
-    color: rgb(255, 255, 255); */
+    display: flex;
+    flex-direction: row;
+    /* border: magenta 2px solid; */
+    width: 695px;
+    height: 245px;
+    margin: 10px;
+    margin-right: 10px;
 }
 
-.linkwork {
+/* .linkwork {
     font-size: 18px;
     color: rgb(255, 255, 255);
     text-decoration: none;
     background-color: aqua;
+} */
+
+h4 {
+/* color: white;
+font-size: 18px; */
+/* border: green solid 2px;
+margin: 10px; */
 }
 
 #footerlogo {
-    border: solid rgb(191, 33, 219) 2px;
-    margin-left: 650px;
+    /* border: solid rgb(191, 33, 219) 2px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+}
+
+#atagidk {
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    margin: 10px;
+    font-size: 27px;
+}
+
+#thisbitidk {
+    margin-top: 10px;
+    margin-bottom: 9px;
 }
